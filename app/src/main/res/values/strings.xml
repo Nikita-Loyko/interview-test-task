@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Interview Test Task</string>
+    <string name="go">Go</string>
+    <string name="number_of_points">Number of Points</string>
+    <string name="enter_the_number_of_points">Enter the number of points to obtain and then tap the \"Go\" button</string>
+    <string name="number_validation_error">Number must be in 1 to 1000 range</string>
+    <string name="server_error">Server error. Please try again.</string>
+    <string name="points_label">Points</string>
+    <string name="save_to_file">Save to File</string>
+    <string name="permissions_denied">Permissions denied!</string>
+    <string name="successfully_saved">Successfully saved!</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/request_points_fragment_dest">
+
+    <fragment
+        android:id="@+id/request_points_fragment_dest"
+        android:name="com.nloyko.interviewtesttask.obtainpoints.ObtainPointsFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_obtain_points" >
+        <action
+            android:id="@+id/action_requestPointsFragment_to_displayPointsFragment"
+            app:destination="@id/display_points_fragment_dest" />
+    </fragment>
+    <fragment
+        android:id="@+id/display_points_fragment_dest"
+        android:name="com.nloyko.interviewtesttask.displaypoints.DisplayPointsFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_display_points" />
+</navigation>
